@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+header{
+    width: 100%;
+    height: 100px;
+    padding: 22px 100px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    background-color: #FFF;
+    z-index: 10;
+
+}
+.banner-container{
+    width: 100%;
+    height: 77vh;
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+.book-btn{
+    padding: 13px 50px;
+    background:  #FF5403;
+    border: none;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.nav-list,a{
+    display: flex;
+    column-gap: 50px;
+    color: #696969;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #696969;
+}
+.Header-nav {
+    display: flex;
+    align-items: center;
+}
+.banner-text h1{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 96px;
+    font-weight: 700;
+    letter-spacing: 6.72px;
+    margin-bottom: 5px;
+
+
+}
+.banner-text p{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    margin-bottom: 50px;
+}
+.banner-text{
+    text-align: center;  
+}
+.text-btn{
+    width: 250px;
+    height: 66px;
+    padding: 13px 50px;
+    background: #FF5403;
+    border: none;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+h2{
+    margin-top: 282px;
+    color: #041562;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 1.8px;
+}
+h3{
+    margin-top: 20px;
+    color: #626262;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.9px;
+}
+.image-container{
+    position: relative;
+}
+.img-title{
+     font-size: 36px;
+    color: #FFF;
+    position: absolute;
+    left: 30px;
+    top:30px
+}
+.Top-Places{
+    width: 1312px;
+    margin: auto;
+   
+    
+}
+.image-row-1, .image-row-2{
+    display: flex;
+    column-gap: 50px;
+}
+ 
+.image-row-2{
+margin-top: 50px;    
+}
+h3{
+    margin-bottom: 75px;
+}
+.Discover{
+    padding: 13px 50px;
+    background: #FF5403;
+    border: none;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.Discover-btn{
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+.text-hotel{
+    color: #041562;
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 1.8px;
+}
+.best{
+    color: #626262;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.9px;
+    margin-bottom: 75px;
+}
+.ap{
+    margin-top: 50px;
+    display: flex;
+    width: 337px;
+    height: 249px;
+    padding: 11.539px 37.868px 11.622px 36.654px;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.Travel{
+    font-size: 36px; 
+    display: flex;
+    width: 337px;
+    color: #FFF;
+    padding: 11.539px 37.868px 11.622px 36.654px;
+    justify-content: center;
+}
+.Footer{
+    background-color: #19224D;
+}
+.Back{
+    margin-top: 200px;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width: 325px;
+    
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
